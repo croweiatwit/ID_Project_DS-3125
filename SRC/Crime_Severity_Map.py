@@ -45,11 +45,23 @@ for _, row in top_streets.iterrows():
     ).add_to(boston_map)
 
 # Create a legend for the map
+title_html = '''
+    <div style="position: fixed; 
+                    left: 25%; top: 50px; width: 300px; height: 60px; 
+                    background-color: white; border:2px solid grey; z-index:9999; font-size:14px;">
+                    <h3 style="text-align: center; margin: 10px 0;"> Top 250 Streets With The Most Amount Of Crime In Boston</h3>
+
+    </div>
+
+
+    '''
+
 legend_html = '''
     <div style="position: fixed; 
-                bottom: 50px; left: 50px; width: 200px; height: 195px; 
+                bottom: 50px; left: 50px; width: 195px; height: 225px; 
                 background-color: white; border:2px solid grey; z-index:9999; font-size:14px;">
-        <h4 style="text-align: center; margin: 10px 0;">Crime Severity</h4>
+        <h3 style="text-align: center; margin: 10px 0;">Crime Severity </h3>
+        
         <ul style="list-style-type:none; padding-left: 10px;">
             <li><span style="background-color: #14452F; width: 20px; height: 20px; display: inline-block;"></span> <strong>Lower: 300 - 0 </strong></li>
             <li><span style="background-color: #167f4e; width: 20px; height: 20px; display: inline-block;"></span> <strong>Low: 500 - 300</strong></li>
@@ -63,6 +75,8 @@ legend_html = '''
 
 # Add the legend to the map
 boston_map.get_root().html.add_child(folium.Element(legend_html))
+boston_map.get_root().html.add_child(folium.Element(title_html))
+
 
 # Save the interactive map to an HTML file
 boston_map.save("dangerous_streets_map.html")

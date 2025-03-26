@@ -58,7 +58,7 @@ title_html = '''
 
 legend_html = '''
     <div style="position: fixed; 
-                bottom: 50px; left: 50px; width: 195px; height: 225px; 
+                bottom: 50px; left: 50px; width: 195px; height: 200px; 
                 background-color: white; border:2px solid grey; z-index:9999; font-size:14px;">
         <h3 style="text-align: center; margin: 10px 0;">Crime Severity </h3>
         

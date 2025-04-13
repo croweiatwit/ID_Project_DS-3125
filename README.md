@@ -1,13 +1,27 @@
 # ID_Project_DS-3125
 
-This is the Readme
+Boston Crime Data Analysis (2017-2022)
+
+Individual Project COMP-3125
+
+Isabella Crowe
 
 
-This is where the abstract is going to be for the paper. there will most likey be a link to the paper from overleaf as well when I finish it
-
-
-
-https://docs.google.com/document/d/1SuODVLB8HhjrPyQ0SvAj4_aIubWBCgV1RzAt14W-5IQ/edit?tab=t.0
-
-
-[Data_Science_Individual_Project.pdf](https://github.com/user-attachments/files/19618301/Data_Science_Individual_Project.pdf)
+Abstract—This paper analyzes the intersection between urban
+crime and student housing in Boston, Massachusetts. The study
+employs a data-driven approach, utilizing a publicly available
+dataset from Kaggle containing crime reports in Boston from
+2017 to 2022. This paper thoroughly examines East Boston,
+Dorchester, Roxbury, and Charlestown while highlighting the
+Fenway districts. Crime trends were analyzed using visualizations
+such as pie charts and bar graphs, highlighting both the most
+common types of offenses and their geographic concentrations.
+Further, a spatial analysis was conducted using geographic
+bounding and interactive mapping with Python libraries, reveal-
+ing a significant concentration of incidents in specific neighbor-
+hoods and streets. Results indicate that offenses such as larceny,
+vandalism, and motor vehicle accidents are most prevalent, with
+crime disproportionately concentrated in specific neighborhoods.
+The study highlights the trade-offs students face between af-
+fordability and safety when searching for off-campus housing in
+Boston, Massachusetts.

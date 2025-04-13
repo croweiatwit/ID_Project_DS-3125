@@ -27,4 +27,7 @@ fordability and safety when searching for off-campus housing in
 Boston, Massachusetts.
 
 
-To Read Furture Go To PDF Folder
+
+To read further view PDF folder: 
+
+Download CSV file here:       https://www.kaggle.com/datasets/shivamnegi1993/boston-crime-dataset-2022?select=csv_2017_2022.csv

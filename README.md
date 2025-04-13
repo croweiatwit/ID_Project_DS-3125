@@ -1,6 +1,6 @@
-# ID_Project_DS-3125
 
-Boston Crime Data Analysis (2017-2022)
+
+# Boston Crime Data Analysis (2017-2022)
 
 Individual Project COMP-3125
 
@@ -25,3 +25,6 @@ crime disproportionately concentrated in specific neighborhoods.
 The study highlights the trade-offs students face between af-
 fordability and safety when searching for off-campus housing in
 Boston, Massachusetts.
+
+
+To Read Furture Go To PDF Folder
